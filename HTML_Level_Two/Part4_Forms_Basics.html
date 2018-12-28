@@ -5,30 +5,36 @@
     <title>Form Basics</title>
   </head>
   <body>
-    <!--  You can specify the input type-->
-    <!--  Reference Links-->
+    <!-- these are the links you can use as a a Reference-->
     <!-- http://www.w3schools.com/TAGs/att_input_type.asp -->
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input -->
 
-    <!--Actions: where we send the data -->
-    <!--Method: get/post HTTP method -->
     <form>
+      <h1>Log In</h1>
+      <h2>Please input your email and password</h2>
+ <!-- name is to call in another file, value is what is already
+placed inside-->
+<!-- email checks that you have @gmail.com or yahoo.com-that it is
+a valid email adress-->
+      <input type="email" name="useremail" value="email here">
+<!-- password makes it hidden-->
+<!-- no value for pasword, it shows up hidden-->
+      <input type="password" name="password" value="">
+      <input type="submit" name="" value="Submit">
+
+<!-- this is a color, another example -->
+      <h1>Choose a Color</h1>
+      <h2>Click on the button</h2>
+<!--gives you a black box which you can click on to get a spectrum and
+you choose from there -->
+      <input type="color" name="" value="click on me to change the color">
 
 
-    <h1>Log In</h1>
-    <h2>Please Input your Password and Email</h2>
-    <input type="email" name="useremail" value="Email Here">
-    <input type="password" name="password" value="Password">
-    <input type="submit" >
+    <!-- one more example, this is the default -->
+      <h2>Enter some text</h2>
+      <input type="text" name="" value="text goes here">
 
-    <h1>Choose a Color!</h1>
-    <h2>Click on the Button when ready</h2>
-    <input type="color" >
-    <h2>Enter some Text!</h2>
-    <input type="text" name="" value="Text goes here">
-
-    </form>
-
+  </form>
 
   </body>
 </html>
