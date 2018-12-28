@@ -21,13 +21,15 @@
     <!--  for and id connection-->
 
     <form action="http://www.google.com" method="get">
+    <!-- method is either get or post -->
 
       <label>
-         EMAIL:
+         EMAIL:  <!-- it will be on the same level -->
          <input type="email" name="useremail" value="Email Here">
       </label>
-
-
+      <!-- Change in url only when you submit -->
+      <!-- %40 is code for @ -->
+      <!-- vaule=whatever-was-put-in-to-the-box/form -->
       <label >
         PASSWORD:
       <input type="password" name="password" placeholder="Password">
@@ -39,9 +41,11 @@
 
       <label for="userinput">TEXT:</label>
 
-
+      <!-- id must match for -->
       <input type="text" id="userinput"name="input" placeholder="Enter Text Here" required>
-
+<!-- value you hve to delete, placeholder goes away on it's own
+once you start typing -->  <!-- required gives a reminder if you try
+to submit without it -->
       <input type="submit" >
 
     </form>
