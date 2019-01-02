@@ -6,8 +6,10 @@ Watch the video lecture for more info on this! */
 
 /*Task # 1
 Give the body element of the site a light blue background using HEX code*/
+
+/*  should not be rgb  */
 body{
-  background-color: rgb(102, 204, 255);
+  background-color: #66ccff;
 }
 
 
@@ -28,18 +30,16 @@ h2{
 /*Task # 4
 Make all input boxes have a 2px solid dark red border (use rgb for this)*/
 input{
-  border-width: 2px
-  border-style: solid;
-  border-color: rgba(153, 0, 0, 1);
+  border: 2px solid rgb(128, 0, 0);
 }
 
 /*Task # 5
 Give a light yellow background to all <p> elements inside of a <div> element
 Use HEX for the color*/
-div p {
-  background-color: rgb(255, 255, 204);
+  /* should not be rgb */
+div p{
+  background: #ffffcc;
 }
-
 
 /*Task # 6
 There is a textarea element with the id=textblock, give it the following properties:
