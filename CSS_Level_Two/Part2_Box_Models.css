@@ -9,7 +9,7 @@ The CSS box model is essentially a box that wraps around every HTML element. It 
 
   /*Top,Right, Bottom, Left*/
   margin: 10px 20px 100px 400px;
-
+/* auto will center not just the text but the box. */
   text-align: center;
 }
 
