@@ -1,3 +1,7 @@
+/* NO MARGIN */
+/* solid white border */
+/* Hight and Width in the table, but padding  works too*/
+
 h1 {
   font-family: fantasy;
 text-align: center;
@@ -9,7 +13,7 @@ table{
 #one {
 color: rgba(0, 0, 0, 0);
 background-color: #05668D;
-padding: 0px 75px 150px 75px;
+padding: 150px 75px 150px 75px;
 
 }
 #two {
