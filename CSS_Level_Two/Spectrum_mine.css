@@ -1,41 +1,39 @@
 h1 {
   font-family: fantasy;
-  margin-left: 15%;
+text-align: center;
 }
 table{
-  margin-left: 15%;
+  margin-left: auto;
 
 }
 #one {
 color: rgba(0, 0, 0, 0);
 background-color: #05668D;
-padding: 150px 75px 150px 75px;
-margin: 100px 10px 20px 10px;
-
+padding: 0px 75px 150px 75px;
 
 }
 #two {
   color: rgba(0, 0, 0, 0);
   background-color: #028090;
   padding: 150px 75px 150px 75px;
-  margin: 100px 10px 20px 10px;
+
 
 }
 #three {
   color: rgba(0, 0, 0, 0);
   background-color: #00A896;
   padding: 150px 75px 150px 75px;
-  margin: 100px 10px 20px 10px;
+
 }
 #four {
   color: rgba(0, 0, 0, 0);
   background-color: #02C39A;
   padding: 150px 75px 150px 75px;
-  margin: 100px 10px 20px 10px;
+
 }
 #five {
   color: rgba(0, 0, 0, 0);
   background-color: #F0F3BD;
   padding: 150px 75px 150px 75px;
-  margin: 100px 10px 20px 10px;
+
 }
